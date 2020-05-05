@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  display: flex;
+  font-size: 1rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*========================= 
+  Typography
+=========================== */
+
+h1 {
+  color:#fff;
+  font-weight: 200;
+  font-size: 2.25rem;
+}
+strong {
+  font-weight: 900;
+}
+h2 {
+  color:#404040;
+  font-size: 1.3125rem;
+}
+p {
+  color: #F18119;
+  text-transform: uppercase;
+  margin:0;
+}
+.intro p {
+  
+}
+.intro-text {
+
+font-weight: bold;
+position: relative;
+
+}
+
+p.body {
+  color:#5A5A5A;
+  font-weight: normal;
+}
+
+
+/* left/top intro section */
+
+.intro  {
+  background-color: rgba(0,0,0,0.7);
+  background-image: url("../images/ribs.jpg");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:1rem 2rem;
+  margin: 0 auto;
+}
+.intro-text {
+  
+}
