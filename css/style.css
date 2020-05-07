@@ -92,9 +92,10 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   min-height:100vh;
-  padding:0 8px 10px 8px;
+  padding:0 2em 10px 2em;
   
 }
+
 
 .main {
   display: flex;
