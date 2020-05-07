@@ -13,7 +13,7 @@ body {
 
 
 /*===================================
-=========Typography================== 
+=========Typography for intro section================== 
 ====================================*/
 
 h1 {
@@ -28,6 +28,10 @@ h1 {
 h2 {
   font-size: 1.3125rem;
   margin-top:0;
+  text-transform: uppercase;
+  color:#f18119;
+  font-weight: 900;
+
 }
 
 .intro-top-text {
@@ -38,30 +42,87 @@ h2 {
   font-weight: 900;
   font-size: 0.625rem;
   border-top:8px solid;
-  width:200px;
   margin:0 auto;
+  padding-top: .3em;
 
 }
-.join-us {
-  text-transform: uppercase;
-  color:#f18119;
+
+
+/* main section typography */
+.main-title {
+  font-size: 1.5rem;
+  color:#404040;
   font-weight: 900;
 }
+
+.cta {
+  text-transform: uppercase;
+  color: #f18119;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.main-body {
+  color: #5A5A5A;
+  line-height: 1.2;
+}
+
+  
+  
 
 
 /*background image on intro */
 
-.intro {
+.bg-image {
   background-image: url(../images/ribs.jpg);
   background-color: rgba(0,0,0,.7);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height:100vh;
+ 
+}
+
+/*Layout */
+
+
+.intro {
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding:0 10px 10px 10px;
+  min-height:100vh;
+  padding:0 8px 10px 8px;
+  
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+    padding:1em 2em;
+}
+
+/*media query for larger screens */
+
+@media (min-width:700px) {
+  
+ body {
+   flex-direction: row;
+ }
+ .main {
+   justify-content: center;
+ }
+ body {
+   font-size: 1.125rem;
+ }
+ h1 {
+   font-size: 3.5rem;
+ }
+ h2 {
+   font-size: 1.75rem;
+ }
+ .main p {
+   font-size: 1.5rem;
+ }
 
 }
