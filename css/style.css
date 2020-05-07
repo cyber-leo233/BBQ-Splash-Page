@@ -154,3 +154,10 @@ h2 {
  }
 
 }
+
+/*changes top section on smaller screens to shorten the height */
+@media (max-width: 696px) {
+  .intro {
+    min-height: 70vh;
+  }
+}
