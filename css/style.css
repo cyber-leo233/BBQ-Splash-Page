@@ -84,7 +84,7 @@ h2 {
 
 
 /*================================================
-==============background image on intro===========
+==============background image on intro Section===========
 ================================================== */
 
 .bg-image {
@@ -93,7 +93,7 @@ h2 {
   /* background-blend-mode: multiply; */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position:center;
  
 }
 
@@ -108,7 +108,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   min-height:100vh;
-  padding:0 2em 10px 2em;
+  padding:0 .5em 2em;
   
 }
 
@@ -116,7 +116,7 @@ h2 {
 .main {
   display: flex;
   flex-direction: column;
-    padding:1em 2em;
+    padding:2em 1em;
 }
 
 /*================================================
