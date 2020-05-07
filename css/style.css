@@ -129,13 +129,16 @@ h2 {
    font-size: 1.125rem;
  }
  h1 {
-   font-size: 3.5rem;
+   font-size: 3rem;
  }
  h2 {
    font-size: 1.75rem;
  }
  .main p {
    font-size: 1.5rem;
+ }
+ .cta {
+   margin-top: 0;
  }
 
 }
