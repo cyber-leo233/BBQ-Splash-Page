@@ -2,65 +2,66 @@
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   font-size: 1rem;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 * {
   box-sizing: border-box;
 }
 
-/*========================= 
-  Typography
-=========================== */
+
+/*===================================
+=========Typography================== 
+====================================*/
 
 h1 {
-  color:#fff;
-  font-weight: 200;
   font-size: 2.25rem;
-}
-strong {
-  font-weight: 900;
-}
-h2 {
-  color:#404040;
-  font-size: 1.3125rem;
-}
-p {
-  color: #F18119;
-  text-transform: uppercase;
-  margin:0;
-}
-.intro p {
+  margin-top:0;
+  color:#fff;
+  flex-basis: 40%;
+  margin:0 auto;
+  font-weight: 300;
   
 }
-.intro-text {
-
-font-weight: bold;
-position: relative;
-
+h2 {
+  font-size: 1.3125rem;
+  margin-top:0;
 }
 
-p.body {
-  color:#5A5A5A;
-  font-weight: normal;
+.intro-top-text {
+  color:#f18119;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 0.625rem;
+  border-top:8px solid;
+  width:200px;
+  margin:0 auto;
+
+}
+.join-us {
+  text-transform: uppercase;
+  color:#f18119;
+  font-weight: 900;
 }
 
 
-/* left/top intro section */
+/*background image on intro */
 
-.intro  {
-  background-color: rgba(0,0,0,0.7);
-  background-image: url("../images/ribs.jpg");
+.intro {
+  background-image: url(../images/ribs.jpg);
+  background-color: rgba(0,0,0,.7);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
-  height: 100vh;
+  background-position: center;
+  min-height:100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding:1rem 2rem;
-  margin: 0 auto;
-}
-.intro-text {
-  
+  padding:0 10px 10px 10px;
+
 }
