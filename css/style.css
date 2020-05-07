@@ -5,11 +5,13 @@
 
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  color:#404040;
   font-size: 1rem;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+ 
 }
 * {
   box-sizing: border-box;
@@ -48,6 +50,7 @@ h2 {
   border-top:8px solid;
   margin:0 auto;
   padding-top: .3em;
+  order:-1;
 
 }
 
@@ -73,6 +76,9 @@ h2 {
   line-height: 1.2;
 }
 
+.fine-print {
+  font-size: .625rem;
+}
   
   
 
@@ -82,9 +88,9 @@ h2 {
 ================================================== */
 
 .bg-image {
-  background-image: url(../images/ribs.jpg);
+  background-image: url(../images/dark-ribs.jpg);
   background-color: rgba(0,0,0,.7);
-  background-blend-mode: multiply;
+  /* background-blend-mode: multiply; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -122,6 +128,7 @@ h2 {
  body {
    flex-direction: row;
  }
+ 
  .main {
    justify-content: center;
  }
@@ -136,6 +143,9 @@ h2 {
  }
  .main p {
    font-size: 1.5rem;
+ }
+ .main .fine-print {
+   font-size: .625rem;
  }
  .cta {
    margin-top: 0;
