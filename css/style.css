@@ -76,6 +76,7 @@ h2 {
 .main-body {
   color: #5A5A5A;
   line-height: 1.2;
+  margin-bottom: 2em;
 }
 
 .fine-print {
@@ -121,24 +122,64 @@ h2 {
     padding:2em 1em;
 }
 
+/*form layout */
+form {
+  margin:0 auto;
+}
+input {
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  border:1px solid #404040;
+  min-width: 15vw;
+  height: 5vh;
+  margin:0 auto;
+}
+input {
+  margin-bottom:1em;
+}
+.btn {
+  width: 100%;
+  color:#fff;
+  font-weight: bold;
+  font-size: 10px;
+  padding:1em 1em;
+  border:none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.btn-primary {
+  background:linear-gradient(to right,#FF713B,#FFA51D);
+}
+
 /*================================================
 ==============Media query for larger screens===========
 ================================================== */
 
-@media (min-width:700px) {
+@media (min-width:600px) {
   
  body {
    flex-direction: row;
  }
+ .intro {
+   flex-basis: 60%;
+ }
  
  .main {
    justify-content: center;
+   flex-basis: 80%;
+ }
+ .intro > *,.main > * {
+        max-width: 550px;
+        margin-left:auto;
+        margin-right:auto;
  }
  body {
    font-size: 1.125rem;
  }
  h1 {
    font-size: 3rem;
+   margin:2em 0;
  }
  h2 {
    font-size: 1.75rem;
@@ -155,9 +196,20 @@ h2 {
 
 }
 
+
 /*changes top section on smaller screens to shorten the height */
+
 @media (max-width: 696px) {
   .intro {
     min-height: 70vh;
+    
   }
+  input {
+    height:8vh;
+    max-height: 15vh;
+  
+    
+    
+  }
+
 }
