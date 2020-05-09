@@ -125,6 +125,8 @@ h2 {
 /*form layout */
 form {
   margin:0 auto;
+  width: 80%;
+  max-width: 300px;
 }
 input {
   display: block;
@@ -137,6 +139,7 @@ input {
 }
 input {
   margin-bottom:1em;
+  width: 100%;
 }
 .btn {
   width: 100%;
