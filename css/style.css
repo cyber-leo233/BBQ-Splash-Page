@@ -133,16 +133,19 @@ input {
   text-align: center;
   border-radius: 5px;
   border:1px solid #404040;
-  min-width: 15vw;
+  width: 80%;
   height: 5vh;
   margin:0 auto;
-}
-input {
   margin-bottom:1em;
-  width: 100%;
+  transform: scale(1);
+  transition: scale 250ms;
+}
+
+ input:focus {
+  transform: scale(1.1);
 }
 .btn {
-  width: 100%;
+  width: 80%;
   font-weight: bold;
   font-size: 10px;
   padding:1em 1em;
@@ -216,6 +219,7 @@ input {
 @media (max-width: 696px) {
   .intro {
     min-height: 70vh;
+    padding:0 3em;
     
   }
   input {
