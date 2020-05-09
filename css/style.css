@@ -147,6 +147,7 @@ input {
   border:none;
   border-radius: 5px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .btn-primary {
   background:linear-gradient(to right,#FF713B,#FFA51D);
