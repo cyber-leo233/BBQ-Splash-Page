@@ -148,6 +148,7 @@ input {
   border-radius: 5px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .btn-primary {
   background:linear-gradient(to right,#FF713B,#FFA51D);
