@@ -140,7 +140,6 @@ input {
 }
 .btn {
   width: 100%;
-  color:#fff;
   font-weight: bold;
   font-size: 10px;
   padding:1em 1em;
@@ -151,7 +150,17 @@ input {
   cursor: pointer;
 }
 .btn-primary {
-  background:linear-gradient(to right,#FF713B,#FFA51D);
+  
+  background-image:linear-gradient(to left,#FFA51D,#FF713B);
+  color:#fff;
+  transition: all 500ms;
+  transform:scale(1);
+
+}
+.btn-primary:hover {
+  color:black;
+  transform: scale(1.2);
+ 
 }
 
 /*================================================
