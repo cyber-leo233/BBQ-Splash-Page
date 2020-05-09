@@ -48,6 +48,7 @@ h2 {
   font-weight: 900;
   font-size: 0.625rem;
   border-top:8px solid;
+  border-image: linear-gradient(to left,#ff713b, #ffa51d) 1;
   margin:0 auto;
   padding-top: .3em;
   order:-1;
